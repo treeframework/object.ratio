@@ -8,7 +8,7 @@ even images to retain a specific aspect ratio.
 The `ratio` object depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
-
+o
 If you install the `ratio` object using Bower, you will get these dependencies at
 the same time. If not using Bower, please be sure to install and `@import` these
 dependencies in the relevant way.
@@ -51,7 +51,7 @@ Once installed, `@import` into your project in its Object layer:
 
 The least recommended option dor installation is to simply download
 `_object.ratio.scss` into your project and `@import` it into your project in its
-Objects layer.
+Object layer.
 
 ## Usage
 
