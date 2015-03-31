@@ -1,5 +1,9 @@
 # ratio Changelog
 
+## [0.1.2] - 2015-03-31
+
+* Remove extra semicolon from package.json
+
 ## [0.1.1] - 2015-03-31
 
 * Remove extra semicolon from bower.json
