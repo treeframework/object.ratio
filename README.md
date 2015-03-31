@@ -44,7 +44,7 @@ $ git submodule add git@github.com:treeframework/object.ratio.git
 Once installed, `@import` into your project in its Object layer:
 
 ```scss
-@import "trump.ratio/trump.ratio";
+@import "object.ratio/object.ratio";
 ```
 
 ### Install via file download
