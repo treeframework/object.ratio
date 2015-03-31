@@ -1,0 +1,81 @@
+// *************************************
+//
+//   #RATIO
+//
+// *************************************
+
+// For use with media embeds – such as videos, slideshows, or even images –
+// * that need to retain a specific aspect ratio.
+
+// Predefine the variables below in order to alter and enable specific features.
+$tree-ratio-namespace:       $tree-namespace !default;
+
+$tree-enable-ratio--3by1:    false !default;
+$tree-enable-ratio--2by1:    false !default;
+$tree-enable-ratio--16by9:   false !default;
+$tree-enable-ratio--4by3:    false !default;
+
+
+
+
+// 1. Default aspect ratio is 1:1.
+.#{$tree-ratio-namespace}ratio {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 100%; // [1]
+    overflow: hidden;
+}
+
+    .#{$tree-ratio-namespace}ratio__item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+
+
+@if ($tree-enable-ratio--3by1 == true) {
+
+    // Ratio 3:1
+
+    .#{$tree-ratio-namespace}ratio--3by1 {
+        padding-bottom: 33.33333%;
+   }
+
+}
+
+@if ($tree-enable-ratio--2by1 == true) {
+
+    // Ratio 2:1
+
+    .#{$tree-ratio-namespace}ratio--2by1 {
+        padding-bottom: 50%;
+   }
+
+}
+
+@if ($tree-enable-ratio--16by9 == true) {
+
+    // Ratio 16:9
+
+    .#{$tree-ratio-namespace}ratio--16by9 {
+        padding-bottom: 56.25%;
+   }
+
+}
+
+@if ($tree-enable-ratio--4by3 == true) {
+
+    // Ratio 4:3
+
+    .#{$tree-ratio-namespace}ratio--4by3 {
+        padding-bottom: 75%;
+   }
+
+}
