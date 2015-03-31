@@ -82,6 +82,5 @@ For example:
 * **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
 framework designed with scalability and performance in mind.
 
-* **[SUIT CSS link utilities](https://github.com/suitcss/utils-link/)** SUIT
-CSS is a reliable and testable styling methodology for component-based UI
-development.
+* **[SUIT CSS](https://github.com/suitcss)** SUIT CSS is a reliable and 
+testable styling methodology for component-based UI development.
