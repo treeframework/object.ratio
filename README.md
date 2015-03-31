@@ -8,7 +8,7 @@ even images to retain a specific aspect ratio.
 The `ratio` object depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
-o
+
 If you install the `ratio` object using Bower, you will get these dependencies at
 the same time. If not using Bower, please be sure to install and `@import` these
 dependencies in the relevant way.
@@ -82,5 +82,5 @@ For example:
 * **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
 framework designed with scalability and performance in mind.
 
-* **[SUIT CSS](https://github.com/suitcss)** SUIT CSS is a reliable and 
+* **[SUIT CSS](https://github.com/suitcss)** SUIT CSS is a reliable and
 testable styling methodology for component-based UI development.
