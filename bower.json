@@ -11,6 +11,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tree-defaults": "~0.2.5",
+    "tree-defaults": "~0.2.5"
   }
 }
