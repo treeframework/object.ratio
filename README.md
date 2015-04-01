@@ -15,7 +15,7 @@ dependencies in the relevant way.
 
 ## Installation
 
-You can install `ratio` object via npm, Git Submodule, or copy and paste.
+You can install `ratio` object via Bower, npm, Git Submodule, or copy and paste.
 
 ### Install using Bower:
 
