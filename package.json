@@ -1,7 +1,7 @@
 {
   "name": "tree-ratio",
   "description": "For use with media embeds – such as videos, slideshows, or even images – * that need to retain a specific aspect ratio.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Ilia Kolev <info@iliakolev.com>",
   "bugs": {
     "url": "https://github.com/treeframework/object.ratio/issues"
