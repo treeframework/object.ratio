@@ -58,8 +58,8 @@ Object layer.
 Basic usage of the `ratio` object uses the required classes:
 
 ```html
-<div class="ratio">
-    <iframe class="ratio__item" src="..."></iframe>
+<div class="o-ratio">
+    <iframe class="o-ratio__item" src="..."></iframe>
 </div>
 ```
 
@@ -67,13 +67,13 @@ Basic usage of the `ratio` object uses the required classes:
 
 Other, optional classes can supplement the required base classes:
 
-* `.ratio--[3by1|2by1|16by9|4by3]`: alter aspect ratio.
+* `.o-ratio--[3by1|2by1|16by9|4by3]`: alter aspect ratio.
 
 For example:
 
 ```html
-<figure class="ratio  ratio--4by3">
-    <img class="ratio__item" src="path/to/image.jpg" alt="">
+<figure class="o-ratio  o-ratio--4by3">
+    <img class="o-ratio__item" src="path/to/image.jpg" alt="">
 </figure>
 ```
 
