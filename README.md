@@ -49,7 +49,7 @@ Once installed, `@import` into your project in its Object layer:
 
 ### Install via file download
 
-The least recommended option dor installation is to simply download
+The least recommended option for installation is to simply download
 `_object.ratio.scss` into your project and `@import` it into your project in its
 Object layer.
 
