@@ -15,7 +15,7 @@ dependencies in the relevant way.
 
 ## Installation
 
-You can install `ratio` object via Bower, npm, Git Submodule, or copy and paste.
+You can install `ratio` object via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -34,19 +34,6 @@ Once installed, `@import` into your project in its Object layer:
 ```sh
 $ npm install tree-ratio --save
 ```
-
-### Install as a Git Submodule:
-
-```sh
-$ git submodule add git@github.com:treeframework/object.ratio.git
-```
-
-Once installed, `@import` into your project in its Object layer:
-
-```scss
-@import "object.ratio/object.ratio";
-```
-
 ### Install via file download
 
 The least recommended option for installation is to simply download
