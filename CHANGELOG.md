@@ -1,8 +1,12 @@
 # ratio Changelog
 
+## [0.2.1] - 2015-05-19
+
+* Fix missing object namespace class.
+
 ## [0.2.0] - 2015-04-11
 
-* Add utility class: `o-`.
+* Add object namespace class `o-`.
 
 ## [0.1.2] - 2015-03-31
 

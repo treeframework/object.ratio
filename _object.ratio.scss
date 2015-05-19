@@ -92,7 +92,7 @@ $tree-enable-ratio--4by3:    false !default;
     // Modifier: `o-ratio--2by1`
     // =========================================================================
 
-    .#{$tree-ratio-namespace}ratio--2by1 {
+    .#{$tree-ratio-namespace}o-ratio--2by1 {
         padding-bottom: 50%;
    }
 
@@ -103,7 +103,7 @@ $tree-enable-ratio--4by3:    false !default;
     // Modifier: `o-ratio--16by9`
     // =========================================================================
 
-    .#{$tree-ratio-namespace}ratio--16by9 {
+    .#{$tree-ratio-namespace}o-ratio--16by9 {
         padding-bottom: 56.25%;
    }
 
@@ -114,7 +114,7 @@ $tree-enable-ratio--4by3:    false !default;
     // Modifier: `o-ratio--4by3`
     // =========================================================================
 
-    .#{$tree-ratio-namespace}ratio--4by3 {
+    .#{$tree-ratio-namespace}o-ratio--4by3 {
         padding-bottom: 75%;
    }
 
